@@ -1,0 +1,7 @@
+input
+hi
+begin
+thing
+stuff
+begin
+%10s

@@ -1,0 +1,494 @@
+  <!doctype html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
+<head>    
+    <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="pingback" href="https://onlinedegrees.und.edu/wordpress/xmlrpc.php" />
+    
+    <script>            
+            dataLayer = [{ "programCode": "UND-MSCS","vertical" : "Information Technology","subVertical" : "Computer Science","educationLevel" : "Masters" , "pageType" : "blog", "gtmversion" : "2"}];            
+        </script><!-- Start UND Optimize 360 Anti Flicker Code Snippet --><style>.async-hide { opacity: 0 !important} </style><script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WFNKHG8':true});</script><!-- End UND Optimize 360 Anti Flicker Code Snippet --><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WFNKHG8');</script><!-- End Google Tag Manager --><!-- Hotjar Tracking Code for https://onlinedegrees.und.edu --><script>
+  (function(h,o,t,j,a,r){
+    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+    h._hjSettings={hjid:2267738,hjsv:6};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script><!-- End Hotjar Tracking Code --><script>
+    document.addEventListener('DOMContentLoaded', function(){//set form question min-height with JS, no jquery needed
+        var $Qs = document.getElementsByClassName('form__inner__lead-form__question'); //get quesitons
+        if(typeof $Qs !== "undefined"){
+            var formQminheight = 0;
+            for (var i=0;i<$Qs.length;i++){ $Qs[i].style.display='block'; } //set questions to be visible            
+             var $formQWraps = document.getElementsByClassName('form__inner__lead-form__question__wrap');//get each question wrap
+             for (var i=0;i<$formQWraps.length;i++){         
+                var tempHeight = $formQWraps[i].clientHeight;
+                if (tempHeight > formQminheight) formQminheight=tempHeight;//if a question is the tallest question, set variable
+            }
+            if (formQminheight > 0 ) for (var i=0;i<$formQWraps.length;i++){$formQWraps[i].style.minHeight=formQminheight+"px";}//set min heights on each question
+            for (var i=0;i<$Qs.length;i++){$Qs[i].style.display='';}//remove display from questions
+        }
+        //lazy loading images on site
+        var lazyImages = [].slice.call(document.querySelectorAll("[data-lazy='1']"));// all lazy images or div backgrounds on the site have a data-lazy=1 attribute                
+        if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && "IntersectionObserver" in window) {//lazy loading only loads on mobile, except blog archives will also lazy load if intersectionobserver is supported
+            let lazyImageObserver = new IntersectionObserver(function(entries, observer) {//create observer that watches for when divs and images intercept the viewport
+              entries.forEach(function(entry) {
+                if (entry.isIntersecting) {//when a new element enters viewport
+                  let lazyImage = entry.target;//get the variable of the element we can target
+                  lazyIntersect(lazyImage);//start the lazy load funciton
+                  lazyImageObserver.unobserve(lazyImage);//clean up observer once observed
+                }
+              });
+            },{rootMargin: '0px 0px 30px 0px',});//rootMargin makes images load before they hit the viewport
+            lazyImages.forEach(function(lazyImage) {//sets the ovserver on every image
+              lazyImageObserver.observe(lazyImage);
+            });
+         } else {//fallback for older browsers. Images are loaded regularly            
+             lazyImages.forEach(function(lazyImage) {//for every lazy image on site
+                  lazyIntersect(lazyImage);//set the image to be visible outside of viewport
+             });
+          }
+        function lazyIntersect(lazyImage){
+          //set all lazy load data attributes to be the actual html elements that will load image or background
+          if (lazyImage.hasAttribute("data-src"))lazyImage.src = lazyImage.dataset.src;
+          if (lazyImage.hasAttribute("data-srcset"))lazyImage.srcset = lazyImage.dataset.srcset;
+          if (lazyImage.hasAttribute("data-bg"))lazyImage.style.background = lazyImage.dataset.bg; 
+          if (lazyImage.hasAttribute("data-bgimg"))lazyImage.style.backgroundImage = "url('"+lazyImage.dataset.bgimg+"')";     
+          //cleanup the page of the attributes that are no longer needed
+          lazyImage.removeAttribute("data-lazy");
+        }// end lazy loading
+    });
+    </script><title>7 Types of Cyber Security Threats</title><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald%3A500%7COpen%20Sans%3A400%2C400i%2C600%2C600i%2C700%2C700i&subset=" /><!-- This site is optimized with the Yoast SEO plugin v9.0.2 - https://yoast.com/wordpress/plugins/seo/ --><meta name="description" content="Tracking evolving and increasing cyberattacks is key to better cyber security."/><link rel="canonical" href="https://onlinedegrees.und.edu/blog/types-of-cyber-security-threats/" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="7 Types of Cyber Security Threats" /><meta property="og:description" content="Tracking evolving and increasing cyberattacks is key to better cyber security." /><meta property="og:site_name" content="University of North Dakota Online" /><meta property="article:section" content="Articles" /><meta property="article:published_time" content="2020-01-13T17:57:01+00:00" /><meta property="article:modified_time" content="2020-10-02T13:47:23+00:00" /><meta property="og:updated_time" content="2020-10-02T13:47:23+00:00" /><meta property="og:image" content="https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2020/01/02134703/cyber-security-threats.jpg" /><meta property="og:image:secure_url" content="https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2020/01/02134703/cyber-security-threats.jpg" /><meta property="og:image:width" content="780" /><meta property="og:image:height" content="411" /><meta property="og:image:alt" content="Data breach is a type of cyber security threat that organizations face." /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:description" content="Tracking evolving and increasing cyberattacks is key to better cyber security." /><meta name="twitter:title" content="7 Types of Cyber Security Threats" /><meta name="twitter:image" content="https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2020/01/02134703/cyber-security-threats.jpg" /><script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/onlinedegrees.und.edu\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/onlinedegrees.und.edu\/blog\/","name":"Blog"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/onlinedegrees.und.edu\/blog\/types-of-cyber-security-threats\/","name":"7 Types of Cyber Security Threats"}}]}</script><!-- / Yoast SEO plugin. --><link rel='dns-prefetch' href='//s7.addthis.com' /><link rel='dns-prefetch' href='//fonts.googleapis.com' /><link rel='stylesheet' id='child-style-css'  href='https://onlinedegrees.und.edu/wordpress/wp-content/themes/child-sparkle-box/sparkle-box-and-child.min.css?ver=2021033101' type='text/css' media='all' /><link rel='https://api.w.org/' href='https://onlinedegrees.und.edu/wp-json/' /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://onlinedegrees.und.edu/wordpress/xmlrpc.php?rsd" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://onlinedegrees.und.edu/wordpress/wp-includes/wlwmanifest.xml" /><meta name="generator" content="WordPress 4.9.4" /><link rel='shortlink' href='https://onlinedegrees.und.edu/?p=10722' /><meta name="framework" content="Alkivia Framework 0.8" /></head>
+  <body class="post-template-default single single-post postid-10722 single-format-standard">
+    
+<div itemscope itemtype="http://schema.org/CollegeOrUniversity">
+  <meta itemprop="name" content="University of North Dakota" />
+  <meta itemprop="image" content="https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2018/06/04172954/und-logo.png" />
+  
+  
+                                                                          <div itemprop="hasCredential" itemscope itemtype="http://schema.org/EducationalOccupationalCredential">
+              <meta itemprop="credentialCategory" content="Accreditation" />      
+              <meta itemprop="image" content="https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2018/04/25213436/NDU_HLC.jpg" />
+                                                                    </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+</div>
+
+    <div class="wpa-hide-ltr" id="skiplinks" role="navigation" aria-label="Skip links">
+      <a href="#main" style="text-decoration: underline;">Skip to main content</a>
+    </div>
+
+        
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFNKHG8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div class="wrapper">
+
+              <header id="header" class="header container-fluid" role="banner" aria-label="Header"><div id="header__wrap--1" class="header__wrap header__wrap--1 wrap"><div class="header__row header__row--2-cols row"><div class="header__row__col header__row__col--1 col  col-sm-3"><div class=" flex  left-align "><div class="logo"><a href="https://onlinedegrees.und.edu/" class="logo__link" data-croloc="header" data-crotype="logo" data-crolinktype="internal"><img src="https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2018/06/04172954/und-logo.png" width="300" height="50" class="logo__img img-responsive" alt="University of North Dakota (UND) logo"/></a></div></div></div><div class="header__row__col header__row__col--3 col  col-sm-9"><div class=" flex right-align"><div class="header__hamburger headermenulink" role="button"><button id="header__hamburger__toggle" class="header__hamburger__toggle"><span class="sr-only">Menu</span><span class="header__hamburger__toggle__bar"></span><span class="header__hamburger__toggle__bar"></span><span class="header__hamburger__toggle__bar"></span></button><p class="header__hamburger__toggle hidden-xs">Menu</p></div><div class="button"><a href="https://onlinedegrees.und.edu/pre-qualify/" class ="btn btn--center headerapplylink" data-croloc="header" data-crotype="apply" 		        data-crolinktype="internal"
+               
+>Pre-Qualify</a></div></div></div></div></div><div id="header__nav" class="header__nav menu-item-parents-expandable" style="display:none;" aria-hidden="true" aria-expanded="false"><div class="header__nav__close" role="button">X</div><nav class="menu-main-menu-container"><ul id="menu-main-menu-3" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-651"><a href="https://onlinedegrees.und.edu/" data-croloc="mainmenu" data-crolinktype="internal">Home</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3963"><a>Master of Science<br />in Cyber Security</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666"><a href="https://onlinedegrees.und.edu/masters-cyber-security/" data-croloc="mainmenu" data-crolinktype="internal">Overview</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668"><a href="https://onlinedegrees.und.edu/masters-cyber-security/careers/" data-croloc="mainmenu" data-crolinktype="internal">Careers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-670"><a href="https://onlinedegrees.und.edu/masters-cyber-security/curriculum/" data-croloc="mainmenu" data-crolinktype="internal">Curriculum</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4067"><a href="https://onlinedegrees.und.edu/masters-cyber-security/faculty/" data-croloc="mainmenu" data-crolinktype="internal">Faculty</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-667"><a href="https://onlinedegrees.und.edu/masters-cyber-security/autonomous-systems-cyber-security/" data-croloc="mainmenu" data-crolinktype="internal">Autonomous Systems Cyber Security Track</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671"><a href="https://onlinedegrees.und.edu/masters-cyber-security/cyber-security-and-behavior/" data-croloc="mainmenu" data-crolinktype="internal">Cyber Security and Behavior Track</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672"><a href="https://onlinedegrees.und.edu/masters-cyber-security/data-security/" data-croloc="mainmenu" data-crolinktype="internal">Data Security Track</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2702"><a href="https://onlinedegrees.und.edu/masters-cyber-security/general-cyber-security/" data-croloc="mainmenu" data-crolinktype="internal">General Cyber Security Track</a></li></ul></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3964"><a>Master of Accountancy</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3958"><a href="https://onlinedegrees.und.edu/master-of-accountancy/" data-croloc="mainmenu" data-crolinktype="internal">Overview</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3960"><a href="https://onlinedegrees.und.edu/master-of-accountancy/careers/" data-croloc="mainmenu" data-crolinktype="internal">Careers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3959"><a href="https://onlinedegrees.und.edu/master-of-accountancy/curriculum/" data-croloc="mainmenu" data-crolinktype="internal">Curriculum</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7126"><a href="https://onlinedegrees.und.edu/master-of-accountancy/faculty/" data-croloc="mainmenu" data-crolinktype="internal">Faculty</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7125"><a href="https://onlinedegrees.und.edu/master-of-accountancy/faq/" data-croloc="mainmenu" data-crolinktype="internal">FAQ</a></li></ul></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12926"><a>Master of Arts in Counseling</a><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13922"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-arts-counseling/" data-croloc="mainmenu" data-crolinktype="internal">Overview</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13927"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-arts-counseling/careers/" data-croloc="mainmenu" data-crolinktype="internal">Careers</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13928"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-arts-counseling/curriculum/" data-croloc="mainmenu" data-crolinktype="internal">Curriculum</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13929"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-arts-counseling/faculty/" data-croloc="mainmenu" data-crolinktype="internal">Faculty</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13923"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-arts-counseling/community-mental-health/" data-croloc="mainmenu" data-crolinktype="internal">Community Mental Health Counseling</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13924"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-arts-counseling/k12-school/" data-croloc="mainmenu" data-crolinktype="internal">K-12 School Counseling</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13925"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-arts-counseling/rehabilitation/" data-croloc="mainmenu" data-crolinktype="internal">Rehabilitation Counseling</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13926"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-arts-counseling/addiction/" data-croloc="mainmenu" data-crolinktype="internal">Addiction Counseling</a></li></ul></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9765"><a>Online Nursing Degrees</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9762"><a href="https://onlinedegrees.und.edu/nursing-degrees/" data-croloc="mainmenu" data-crolinktype="internal">Overview</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9763"><a href="https://onlinedegrees.und.edu/nursing-degrees/faculty/" data-croloc="mainmenu" data-crolinktype="internal">Nursing Faculty</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9764"><a href="https://onlinedegrees.und.edu/nursing-degrees/faq/" data-croloc="mainmenu" data-crolinktype="internal">Nursing FAQ</a></li></ul></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9750"><a>Master of Science in Nursing</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9751"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-science-nursing/" data-croloc="mainmenu" data-crolinktype="internal">Overview</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9752"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-science-nursing/careers/" data-croloc="mainmenu" data-crolinktype="internal">M.S. Careers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9753"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-science-nursing/curriculum/" data-croloc="mainmenu" data-crolinktype="internal">M.S. Curriculum</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9755"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-science-nursing/fnp/" data-croloc="mainmenu" data-crolinktype="internal">Family Nurse Practitioner M.S.</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9757"><a href="https://onlinedegrees.und.edu/online-master-degrees/master-science-nursing/pmhnp/" data-croloc="mainmenu" data-crolinktype="internal">Psychiatric-Mental Health Nurse Practitioner M.S.</a></li></ul></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9758"><a>Post-Master&#8217;s Doctor of Nursing Practice</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9759"><a href="https://onlinedegrees.und.edu/online-doctorate-degrees/doctor-nursing-practice/" data-croloc="mainmenu" data-crolinktype="internal">Overview</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9760"><a href="https://onlinedegrees.und.edu/online-doctorate-degrees/doctor-nursing-practice/careers/" data-croloc="mainmenu" data-crolinktype="internal">Post-Master&#8217;s D.N.P. Careers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9761"><a href="https://onlinedegrees.und.edu/online-doctorate-degrees/doctor-nursing-practice/curriculum/" data-croloc="mainmenu" data-crolinktype="internal">Post-Master&#8217;s D.N.P. Curriculum</a></li></ul></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9766"><a href="https://onlinedegrees.und.edu/student-experience/" data-croloc="mainmenu" data-crolinktype="internal">Online Student Experience</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2705"><a href="https://onlinedegrees.und.edu/admissions/" data-croloc="mainmenu" data-crolinktype="internal">Admissions</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-6535"><a href="https://onlinedegrees.und.edu/blog/" data-croloc="mainmenu" data-crolinktype="internal">Blog</a></li><li class="btn btn--learn-more menu-item menu-item-type-custom menu-item-object-custom menu-item-989"><a data-croloc="mainmenu" data-crotype="rfi">Download Brochure</a></li><li class="btn btn--apply-now cro-mainmenu-applylink menu-item menu-item-type-post_type menu-item-object-page menu-item-4070"><a href="https://onlinedegrees.und.edu/pre-qualify/" data-croloc="mainmenu" data-crotype="apply">Pre-Qualify</a></li></ul></nav></div></header>      
+            
+            <div id="breadcrumbs" class="breadcrumbs row">
+    <div class="breadcrumbs__col col col-sm-12">
+        <div class="breadcrumbs__wrap wrap clearfix">
+            <div class="breadcrumbs__col__row row">
+                <div class="breadcrumbs__col__row__col col col-sm-12  ">
+                                            <div class="breadcrumbs__icon" style="width:21px;">
+                            <a href="https://onlinedegrees.und.edu" class="breadcrumbs__icon__link" data-croloc="breadcrumb" data-crotype="link"><img src="https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2018/05/02183450/und-home-icon.png" alt="Home" class="breadcrumbs__icon__link__img"></a>
+                        </div> 
+                                        <div class="breadcrumbs__nav">
+                         <nav class="main-breadcrumbs" data-croloc="breadcrumb"><span><span><a href="https://onlinedegrees.und.edu/" >Home</a> / <span><a href="https://onlinedegrees.und.edu/blog/" >Blog</a> / <span class="breadcrumb_last">7 Types of Cyber Security Threats</span></span></span></span></nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+     
+
+      <main id="main" class="main container-fluid">
+
+        
+          <div class="main__row main__row--content main__row--content--without-sidebar row">
+
+                        
+            <div class="content col col-md-12">
+                <div itemscope itemtype="http://schema.org/Article">
+                                                            
+        
+    
+
+
+    
+    
+
+
+<meta itemprop="image" content="https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2020/01/02134703/cyber-security-threats.jpg" />
+<meta itemprop="name" content="7 Types of Cyber Security Threats" />
+<meta itemprop="description" content="Tracking evolving and increasing cyberattacks is key to better cyber security." />
+<meta itemprop="dateModified" content="October 2, 2020" />
+<meta itemprop="datePublished" content="October 2, 2020" />
+    <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop="name" content="University of North Dakota" />
+                    <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                    <meta itemprop="contentUrl" content="https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2018/06/04172954/und-logo.png" />
+          <meta itemprop="url" content="https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2018/06/04172954/und-logo.png">
+        </div>
+          </span>
+  
+<meta itemprop="mainEntityOfPage" content="https://onlinedegrees.und.edu" />    <div class="meta row"><div class="meta__col"><h1 class="meta__heading" itemprop="headline">7 Types of Cyber Security Threats</h1><span itemprop="author" itemscope itemtype="http://schema.org/CollegeOrUniversity"><meta itemprop="name" content="University of North Dakota" /></span><meta itemprop="dateCreated" content="October 2, 2020" /><p class="tease__categories"><a href="https://onlinedegrees.und.edu/blog/category/articles/" class="tease__categories__link"><span class="sr-only">View all blog posts under</span> Articles</a> | 
+                                                                                                                                                      <a href="https://onlinedegrees.und.edu/blog/category/mscs/" class="tease__categories__link"><span class="sr-only">View all blog posts under</span> MSCS</a></p><script type="text/javascript">
+      var addthis_share = {
+        url: "https://onlinedegrees.und.edu/blog/types-of-cyber-security-threats/",
+        title: "7 Types of Cyber Security Threats",
+        description: "Tracking evolving and increasing cyberattacks is key to better cyber security.",
+        media: "https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2020/01/02134703/cyber-security-threats.jpg"
+      };
+    </script><div class="meta__social"><div class="addthis addthis_toolbox addthis_default_style addthis_32x32_style" ><a class="addthis__item addthis__item--facebook addthis_button_facebook" croloc="content" crotype="social"></a><a class="addthis__item addthis__item--twitter addthis_button_twitter" croloc="content" crotype="social"></a><a class="addthis__item addthis__item--pinterest addthis_button_pinterest_share" croloc="content" crotype="social"></a><a class="addthis__item addthis__item--googleplus addthis_button_google_plusone_share" croloc="content" crotype="social"></a><a class="addthis__item addthis__item--linkedin addthis_button_linkedin" croloc="content" crotype="social"></a></div></div></div></div>    <div itemprop="articleBody">
+              <div class="content__row">
+          <div class="content__row__col">
+                <div class="copy" role="article">
+<p><img class="size-medium wp-image-12227 alignright" src="https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2020/01/02134703/cyber-security-threats-500x263.jpg" alt="Data breach is a type of cyber security threat that organizations face." width="500" height="263" srcset="https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2020/01/02134703/cyber-security-threats-500x263.jpg 500w, https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2020/01/02134703/cyber-security-threats-768x405.jpg 768w, https://s3-us-east-2.amazonaws.com/univ-north-dakota/wordpress/wp-content/uploads/und/2020/01/02134703/cyber-security-threats.jpg 780w" sizes="(max-width: 500px) 100vw, 500px" />Cyber security professionals continually defend computer systems against different types of cyber threats. Cyber attacks hit businesses and private systems every day, and the variety of attacks has increased quickly. According to former Cisco CEO John Chambers, “There are two types of companies: those that have been hacked, and those who don’t yet know they have been hacked.”</p>
+<p>The motives for cyber attacks are many. One is money. Cyber attackers may take a system offline and demand payment to restore its functionality. Ransomware, an attack that requires payment to restore services, is now more sophisticated than ever.</p>
+<p>Corporations are vulnerable to cyber attacks, but individuals are targets too, often because they store personal information on their mobile phones and use insecure public networks.</p>
+<p>Tracking evolving and increasing cyber attacks is key to better cyber security. As cyber security professionals work to increase their knowledge of threats and cyber security information, earning an online cyber security master’s degree can be invaluable. Graduates of the <a href="https://onlinedegrees.und.edu/masters-cyber-security/">University of North Dakota’s online Master of Science in Cyber Security program</a> can expect to gain a deep and nuanced understanding of cyber attack methods.</p>
+<h2>What Is a Cyber Security Threat?</h2>
+<p>A cyber security threat refers to any possible malicious attack that seeks to unlawfully access data, disrupt digital operations or damage information. Cyber threats can originate from various actors, including corporate spies, hacktivists, terrorist groups, hostile nation-states, criminal organizations, lone hackers and disgruntled employees.</p>
+<p>In recent years, numerous high-profile cyber attacks have resulted in sensitive data being exposed. For example, the 2017 Equifax breach compromised the personal data of roughly 143 million consumers, including birth dates, addresses and Social Security numbers. In 2018, Marriott International disclosed that hackers accessed its servers and stole the data of roughly 500 million customers. In both instances, the cyber security threat was enabled by the organization’s failure to implement, test and retest technical safeguards, such as encryption, authentication and firewalls.</p>
+<p>Cyber attackers can use an individual’s or a company’s sensitive data to steal information or gain access to their financial accounts, among other potentially damaging actions, which is why cyber security professionals are essential for keeping private data protected.</p>
+<h2>7 Types of Cyber Security Threats</h2>
+<p>Cyber security professionals should have an in-depth understanding of the following types of cyber security threats.</p>
+<h3>1. Malware</h3>
+<p>Malware is malicious software such as spyware, ransomware, viruses and worms. Malware is activated when a user clicks on a malicious link or attachment, which leads to installing dangerous software. Cisco reports that malware, once activated, can:</p>
+<ul>
+<li>Block access to key network components (ransomware)</li>
+<li>Install additional harmful software</li>
+<li>Covertly obtain information by transmitting data from the hard drive (spyware)</li>
+<li>Disrupt individual parts, making the system inoperable</li>
+</ul>
+<h3>2. Emotet</h3>
+<p>The Cybersecurity and Infrastructure Security Agency (CISA) describes Emotet as “an advanced, modular banking Trojan that primarily functions as a downloader or dropper of other banking Trojans. Emotet continues to be among the most costly and destructive malware.”</p>
+<h3>3. Denial of Service</h3>
+<p>A denial of service (DoS) is a type of cyber attack that floods a computer or network so it can’t respond to requests. A distributed DoS (DDoS) does the same thing, but the attack originates from a computer network. Cyber attackers often use a flood attack to disrupt the “handshake” process and carry out a DoS. Several other techniques may be used, and some cyber attackers use the time that a network is disabled to launch other attacks. A botnet is a type of DDoS in which millions of systems can be infected with malware and controlled by a hacker, according to Jeff Melnick of Netwrix, an information technology security software company. Botnets, sometimes called zombie systems, target and overwhelm a target’s processing capabilities. Botnets are in different geographic locations and hard to trace.</p>
+<h3>4. Man in the Middle</h3>
+<p>A man-in-the-middle (MITM) attack occurs when hackers insert themselves into a two-party transaction. After interrupting the traffic, they can filter and steal data, according to Cisco. MITM attacks often occur when a visitor uses an unsecured public Wi-Fi network. Attackers insert themselves between the visitor and the network, and then use malware to install software and use data maliciously.</p>
+<h3>5. Phishing</h3>
+<p>Phishing attacks use fake communication, such as an email, to trick the receiver into opening it and carrying out the instructions inside, such as providing a credit card number. “The goal is to steal sensitive data like credit card and login information or to install malware on the victim’s machine,” Cisco reports.</p>
+<h3>6. SQL Injection</h3>
+<p>A Structured Query Language (SQL) injection is a type of cyber attack that results from inserting malicious code into a server that uses SQL. When infected, the server releases information. Submitting the malicious code can be as simple as entering it into a vulnerable website search box.</p>
+<h3>7. Password Attacks</h3>
+<p>With the right password, a cyber attacker has access to a wealth of information. Social engineering is a type of password attack that Data Insider defines as “a strategy cyber attackers use that relies heavily on human interaction and often involves tricking people into breaking standard security practices.” Other types of password attacks include accessing a password database or outright guessing.</p>
+<h2>Evolution of Cyber Security</h2>
+<p>Cyber security practices continue to evolve as the internet and digitally dependent operations develop and change. According to Secureworks, people who study cyber security are turning more of their attention to the two areas in the following sections.</p>
+<h3>The Internet of Things</h3>
+<p>Individual devices that connect to the internet or other networks offer an access point for hackers. Cytelligence reports that in 2019, hackers increasingly targeted smart home and internet of things (IoT) devices, such as smart TVs, voice assistants, connected baby monitors and cellphones. Hackers who successfully compromise a connected home not only gain access to users’ Wi-Fi credentials, but may also gain access to their data, such as medical records, bank statements and website login information.</p>
+<h3>The Explosion of Data</h3>
+<p>Data storage on devices such as laptops and cellphones makes it easier for cyber attackers to find an entry point into a network through a personal device. For example, in the May 2019 book Exploding Data: Reclaiming Our Cyber Security in the Digital Age, former U.S. Secretary of Homeland Security Michael Chertoff warns of a pervasive exposure of individuals’ personal information, which has become increasingly vulnerable to cyber attacks.</p>
+<p>Consequently, companies and government agencies need maximum cyber security to protect their data and operations. Understanding how to address the latest evolving cyber threats is essential for cyber security professionals.</p>
+<h2>University of North Dakota’s Master of Science in Cyber Security Program</h2>
+<p>Choosing the right online cyber security master’s program is crucial. The best programs offer courses that stay current with today’s cyber security issues and concerns.</p>
+<p>UND prepares students for cyber security careers with concentrations such as Autonomous Systems Cyber Security, Cyber Security and Behavior, Data Security and General Cyber Security. Learn more about how <a href="https://onlinedegrees.und.edu/masters-cyber-security/">UND’s online Master of Science in Cyber Security</a> prepares students for top cyber security careers.</p>
+<p>&nbsp;</p>
+<p><strong>Recommended Reading</strong></p>
+<p><a href="https://onlinedegrees.und.edu/blog/5-cryptography-tools/">5 Powerful Cryptography Tools for Cyber Security Professionals</a></p>
+<p><a href="https://onlinedegrees.und.edu/blog/types-of-cyber-attacks/">Common Types of Cyber Attacks and Prevention Tactics</a></p>
+<p><a href="https://onlinedegrees.und.edu/blog/health-care-cyber-security-during-epidemics/">Health Care</a><a href="https://onlinedegrees.und.edu/blog/health-care-cyber-security-during-epidemics/"> Cyber Security During Epidemics</a></p>
+<p><strong>Sources</strong></p>
+<p><a href="https://ebooks.cisco.com/story/defending-critical-threats/page/1">Cisco, Defending Against Today’s Critical Threats</a></p>
+<p><a href="https://www.cisco.com/c/en/us/products/security/common-cyberattacks.html">Cisco, What Are the Most Common Cyber Attacks?</a></p>
+<p><a href="https://www.csoonline.com/article/2130877/the-biggest-data-breaches-of-the-21st-century.html">CSO, “The 15 Biggest Data Breaches of the 21st Century”</a></p>
+<p><a href="https://cytelligence.com/cyber-security-and-smart-devices/">Cytelligence, Cyber Security in the Ear of the Smart Home Devices</a></p>
+<p><a href="https://digitalguardian.com/blog/what-social-engineering-defining-and-avoiding-common-social-engineering-threats">Digital Guardian, “What Is Social Engineering? Defining and Avoiding Common Social Engineering Threats”</a></p>
+<p><a href="https://groveatlantic.com/book/exploding-data/">Grove Atlantic, “Exploding Data”</a></p>
+<p><a href="https://blog.netwrix.com/2018/05/15/top-10-most-common-types-of-cyber-attacks/">Netwrix, “Top 10 Most Common Types of Cyber Attacks”</a></p>
+<p><a href="https://www.secureworks.com/resources/rp-2018-state-of-cybercrime">Secureworks, Secureworks State of Cybercrime Report 2018</a></p>
+<p><a href="https://www.upguard.com/blog/cyber-threat">UpGuard, “What Is a Cyber Threat?”</a></p>
+
+</div>          </div>
+        </div>
+          </div>
+  </div>
+            </div>
+
+                        
+                        
+          </div> 
+      </main>
+
+                  <div id="sticky--footer" class="sticky sticky--footer container-fluid" role="region" aria-label="Suplementary Content"><div id="sticky__wrap--1" class="sticky__wrap sticky__wrap--1 wrap"><div class="sticky__row sticky__row--2-cols row"><div class="sticky__row__col sticky__row__col--1 col       col-sm-6"><div class="copy" role="article">
+Learn more about our cyber security master's.
+</div></div><div class="sticky__row__col sticky__row__col--2 col       col-sm-6"><div class="button"><a href="javascript:void(0)" class ="btn btn--learn-more stickyformlink" aria-haspopup="true" data-croloc="sticky" data-crotype="rfi" 		                       
+>Get Program Details</a></div></div></div></div><div class="clearfix"></div></div>                        
+        <div id="secondary-footer" class="secondary-footer container-fluid right-form has-form" style="">
+            <div class="secondary-footer__row row">
+                                    <div class="secondary-footer__row__col col col-sm-7 col-md-8 secondary-footer__row__col--content">  
+                        <div class="secondary-footer__row__col__table">     
+                            <div class="secondary-footer__row__col__table__cell align-top">
+                                <h2>In North Dakota, we do work worth&nbsp;doing.</h2>
+<p>Our innovative way of thinking makes us adaptable, but our focus on education makes us&nbsp;formidable.</p>
+<p><strong>Join us, and you can do work worth doing,&nbsp;too.</strong></p>
+
+                                  
+                            </div>
+                        </div>
+                    </div>
+                                                  
+                    <div class="secondary-footer__row__col col col-sm-5 col-md-4  secondary-footer__row__col--form">
+                        <div class="secondary-footer-form-wrap">
+                            <div id="form" class="form" role="dialog" aria-labelledby="myModalLabel"><div class="form__inner "><div class="lightbox__close" style="display:none;" role="button" aria-label="Close Modal">X</div><div class="form__inner__intro"><div class="form__inner__intro__title form--hide-on-ty" id="myModalLabel">
+            Get Program Details
+        </div><div class="form__inner__intro__description form--hide-on-ty">
+            This will take only a moment
+        </div></div><form id="form__inner__lead-form" class="form__inner__lead-form " action="https://polsone.cds-store.com/api/v1/leads/form/und-1/submit" data-api="1" method="post" data-croselectiontype="dropdown" data-croformlaurusquestion="program" data-croformtype="2-step-rfi-form"><input type="hidden" name="goal_tracker" value="thank"><input type="hidden" name="access_code" value="UND-MSCS-SEO"><div class="form__inner__lead-form__question form__inner__lead-form__question--1 form__inner__lead-form__question--laurus_question form__inner__lead-form__question--current"><div class="form__inner__lead-form__question__progress"><div class="form__inner__lead-form__question__progress__step form__inner__lead-form__question__progress__step--steps-2 form__inner__lead-form__question__progress__step--current">
+                                                1
+                                            </div><div class="form__inner__lead-form__question__progress__step form__inner__lead-form__question__progress__step--steps-2">
+                                                2
+                                            </div></div><div class="form__inner__lead-form__question__wrap"><fieldset class="1"><div class="form__inner__lead-form__question__copy"><table><tr><td class="form__inner__lead-form__question__copy__number">1.</td><td class="form__inner__lead-form__question__copy__question">What concentration are you considering?</td></tr></table></div><legend class="form__inner__lead-form__question__legend">What concentration are you considering?</legend><div class="form__inner__lead-form__question__answers"><label for="program" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--select sr-only">What concentration are you considering?</label><select id="program" class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--select form__inner__lead-form__question__answers__answer--select--program " name="program" required="" aria-label="Please select an option below"><option value="">Please select an option</option><option 
+				class="form__inner__lead-form__question__answers__answer--select--program--1"
+				value="UND_MSCSASC" 
+data-cond-group="MSCSASC"
+  >
+				Autonomous Systems		
+				</option><option 
+				class="form__inner__lead-form__question__answers__answer--select--program--2"
+				value="UND_MSCSCB" 
+data-cond-group="MSCSCB"
+  >
+				Cyber Security and Behavior		
+				</option><option 
+				class="form__inner__lead-form__question__answers__answer--select--program--3"
+				value="UND_MSCSDS" 
+data-cond-group="MSCSDS"
+  >
+				Data Security		
+				</option><option 
+				class="form__inner__lead-form__question__answers__answer--select--program--4"
+				value="UND_MSCSGT" 
+data-cond-group="MSCSGT"
+  >
+				General Cyber Security		
+				</option><option 
+				class="form__inner__lead-form__question__answers__answer--select--program--5"
+				value="UND_MSCS" 
+data-cond-group="MSCS"
+  >
+				Undecided		
+				</option></select><div class="form__inner__lead-form__question__answers__errors"></div></div></fieldset></div><div class="form__inner__lead-form__question__nav"><a href="javascript:void(0)" class="form__inner__lead-form__question__nav__btn form__inner__lead-form__question__nav__btn--next btn btn--next ">Next Step</a><a class="form__inner__lead-form__question__nav__privacy-link pop-up-ajax" href="https://onlinedegrees.und.edu/privacy-policy/" data-croloc="form" data-crotype="privacy">
+                                                    We value your privacy.
+                                                                                                    </a></div></div><div class="form__inner__lead-form__question form__inner__lead-form__question--2 form__inner__lead-form__question--last_step_info"><div class="form__inner__lead-form__question__progress"><div class="form__inner__lead-form__question__progress__step form__inner__lead-form__question__progress__step--steps-2 form__inner__lead-form__question__progress__step--current form__inner__lead-form__question__progress__step--previous">
+                                                1
+                                            </div><div class="form__inner__lead-form__question__progress__step form__inner__lead-form__question__progress__step--steps-2 form__inner__lead-form__question__progress__step--current">
+                                                2
+                                            </div></div><fieldset><div class="form__inner__lead-form__question__wrap"><div class="form__inner__lead-form__question__copy"><table><tr><td class="form__inner__lead-form__question__copy__number">2.</td><td class="form__inner__lead-form__question__copy__question">Who is this brochure for?</td></tr></table></div><legend class="form__inner__lead-form__question__legend">Who is this brochure for?</legend><label for="name" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text form__inner__lead-form__question__answers__label--hidden">Full Name</label><input type="text" name="name" id="name" aria-label="Full Name" placeholder="Full Name" data-parsley-required="" data-parsley-pattern="\w+( )+...*" data-parsley-required-message="Please enter your first and last name." data-parsley-pattern-message="Please enter your first and last name." class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--text form__inner__lead-form__question__answers__answer--text--name"><label for="email" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text form__inner__lead-form__question__answers__label--hidden">Email</label><input type="email" name="email" id="email" aria-label="Email" parsley-type="email" placeholder="Email" data-parsley-required="" data-parsley-required-message="Please enter a valid email." data-parsley-pattern-message="Please enter a valid email." class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--text form__inner__lead-form__question__answers__answer--text--email"><label for="country" style="display:none;" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text form__inner__lead-form__question__answers__label--hidden">Country</label><select style="display:none;" name="country" id="country" class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--select form__inner__lead-form__question__answers__answer--select--country" required="" disabled aria-label="Select a Country"></select><label for="primary_phone" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text form__inner__lead-form__question__answers__label--hidden form__inner__lead-form__question--usphone">Phone</label><input type="tel" name="primary_phone" id="primary_phone" aria-label="phone" data-parsley-pattern="^\(?\d{3}\)?[- ]?\d{3}[- ]?\d{4}$" placeholder="Phone" data-parsley-required=""  data-parsley-required-message="Please enter a valid phone number in this format ###-###-####." data-parsley-usphone-message="Please enter a valid phone number in this format ###-###-####." class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--text form__inner__lead-form__question__answers__answer--text--phone form__inner__lead-form__question--usphone"><label for="zip" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text form__inner__lead-form__question__answers__label--hidden form__inner__lead-form__question--uszip">ZIP Code</label><input type="tel" name="zip" id="zip" aria-label="ZIP Code" data-parsley-type="digits" data-parsley-minlength="5" data-parsley-maxlength="10" placeholder="ZIP Code" data-parsley-required="" data-parsley-required-message="Please enter a 5 digit ZIP Code." data-parsley-minlength-message="Please enter a 5 digit ZIP Code." data-parsley-maxlength-message="Please enter a 5 digit ZIP Code." data-parsley-type-message="Please enter a valid 5 digit ZIP Code." class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--text form__inner__lead-form__question__answers__answer--text--uszip form__inner__lead-form__question--uszip"><label for="int_phone" style="display:none;" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text  form__inner__lead-form__question__answers__label--hidden form__inner__lead-form__question--intphone">International Phone</label><input style="display:none;" type="tel" aria-label="International Phone" name="int_phone" id="int_phone" placeholder="Phone" data-parsley-required=""  minlength="10" data-parsley-minlength-message="Please enter a phone number with 10 or more digits." data-parsley-required-message="Please enter your phone number" class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--text form__inner__lead-form__question__answers__answer--text--intphone form__inner__lead-form__question--intphone" disabled><label for="postal_code" style="display:none;" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text  form__inner__lead-form__question__answers__label--hidden form__inner__lead-form__question--postal">Postal Code</label><input style="display:none;" type="text" name="postal_code" id="postal_code" aria-label="Postal Code" placeholder="Postal Code" data-parsley-required="" minlength="4" data-parsley-minlength-message="Please enter a postal code with four or more characters." data-parsley-required-message="Please enter your postal code" class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--text form__inner__lead-form__question__answers__answer--text--postal form__inner__lead-form__question--postal" disabled></div></fieldset><div class="form__inner__lead-form__question__nav"><input type="submit" class="form__inner__lead-form__question__nav__btn form__inner__lead-form__question__nav__btn--submit btn btn--submit" value="Download Brochure"><a class="form__inner__lead-form__question__nav__privacy-link pop-up-ajax" href="https://onlinedegrees.und.edu/privacy-policy/" data-croloc="form" data-crotype="privacy">
+                                                    We value your privacy.
+                                                                                                    </a></div></div></form><div class="form__loading-animation"></div></div></div>                                           </div>
+                    </div>                
+                            </div>
+        </div>    
+        
+      
+        <footer id="footer" class="footer container-fluid">
+                   
+                                            <div id="footer__wrap--1" class="footer__wrap footer__wrap--1 wrap">
+                                                                                                                                                                                            <div class="footer__row footer__row--2-cols row">     
+                         
+                            <div class="footer__row__col footer__row__col--1 footer__row__col--align-middle col  col-sm-4">
+                                           
+                                                <div class="copy" role="article">
+<p>Copyright © 2021 University of North Dakota.<br />
+All rights reserved.</p>
+
+</div>      
+                                                                    </div>
+                         
+                            <div class="footer__row__col footer__row__col--2 footer__row__col--align-middle col  col-sm-8">
+                                           
+                                                									<nav id="footer__nav" class="footer__nav" aria-label="Footer Navigation"><ul class="footer__nav__ul" role="menubar"><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link" href="https://onlinedegrees.und.edu/" data-croloc="footer" data-crotype="footermenu" 		        data-crolinktype="internal"
+               
+>Home</a></li><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link footer__nav__ul__li__link--privacy-ajax pop-up-ajax" href="https://onlinedegrees.und.edu/privacy-policy/" data-croloc="footer" data-crotype="openlightbox">Privacy Policy</a></li><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link" href="https://und.edu/about/student-disclosure-information/complaint-process.html" data-croloc="footer" data-crotype="footermenu" 		        data-crolinktype="external" rel="noreferrer" target="_blank"
+               
+>Complaint Resolution</a></li><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link" href="https://onlinedegrees.und.edu/admissions/" data-croloc="footer" data-crotype="footermenu" 		        data-crolinktype="internal"
+               
+>Admissions</a></li><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link" href="https://onlinedegrees.und.edu/blog/" data-croloc="footer" data-crotype="footermenu" 		        data-crolinktype="internal"
+               
+>Blog</a></li><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link pop-up-ajax" href="https://onlinedegrees.und.edu/do-not-sell-my-info/" data-croloc="footer" data-crotype="openlightbox">Do Not Sell My Personal Information</a></li></ul></nav>      
+                                                                    </div>
+                                            </div>
+                </div>
+                     
+    </footer>
+    <div id="lightbox" class="lightbox" style="display:none;" aria-hidden="true">      
+    
+      
+                                                                                     <div id="lightbox__wrap--ajax" class="lightbox__wrap lightbox__wrap--ajax wrap" style="display:none;" aria-hidden="true">
+        <div class="lightbox__close" data-croloc="modal" data-crotype="close">X</div>
+            <div class="lightbox__wrap__loading-animation"></div>
+            <div class="lightbox__wrap__inner"></div>
+    </div>
+                 
+</div> <script type='text/javascript' src='//s7.addthis.com/js/300/addthis_widget.js?ver=4.9.4#pubid=ra-5aea194165904299'></script>
+<script type='text/javascript' defer src='https://onlinedegrees.und.edu/wordpress/wp-content/themes/sparkle-box/assets/js/main.min.js?ver=2021033101'></script>
+<!-- Chat Script -->
+<script type="text/javascript" src='https://home-e32.niceincontact.com/inContact/ChatClient/js/embed.min.js'></script>
+<script defer type="text/javascript">
+icPatronChat.init({serverHost:'https://home-e32.niceincontact.com',bus_no:4599180,poc:'33835803-26ac-4886-bca0-665382b726b6',params:['FirstName','Last Name','first.last@company.com',555-555-5555]});
+</script>
+
+<!-- Mobile Chat JS -->
+<script defer type="text/javascript">
+  //Chat config (should match icPatronChat.init values)
+  var config = {
+    serverHost: 'https://home-e32.niceincontact.com',
+    bus_no: 4599180,
+    poc: '33835803-26ac-4886-bca0-665382b726b6',
+    params: ['FirstName', 'Last Name', 'first.last@company.com', 555 - 555 - 5555]
+  };
+
+  document.addEventListener("DOMContentLoaded", function(){
+    //Mobile chat - link
+    var chatLink = document.createElement('A');
+    //Mobile chat - link class
+    chatLink.classList.add('chat-button--mobile');
+    //Mobile chat - link attributes
+    chatLink.setAttribute('data-croloc', 'sticky');
+    chatLink.setAttribute('target', '_blank');
+    chatLink.setAttribute('crotype', 'chat');
+    chatLink.setAttribute('data-crolinktype', 'external');
+    chatLink.setAttribute('rel', 'noreferrer');
+
+    //Mobile chat - span
+    var chatSpan = document.createElement('span');
+    //Add span inside link
+    chatLink.appendChild(chatSpan);
+
+    //Mobile chat - text
+    var chatText = document.createTextNode('Live Chat');
+    //Mobile chat - span class (text only be visible to screen readers)
+    chatSpan.classList.add('sr-only');
+    //Add text inside span
+    chatSpan.appendChild(chatText);
+
+    //Get chat config options
+    var opt = config ? (config.params ? config.params : []) : [];
+
+    //Chat URL parameters
+    var query = '';
+
+    //For each chat config option
+    for (i = 0; i < opt.length && i < 9; i++) {
+      //Add chat config option to query
+      query = query + "&P" + i + "=" + encodeURIComponent(opt[i]);
+    }
+
+    //Chat URL with parameters
+    var url = config.serverHost + "/inContact/ChatClient/ChatClient.aspx?poc=" + config.poc + "&bu=" + config.bus_no + query;
+    //Chat URL - href attribute
+    chatLink.setAttribute('href', url);
+
+    //Add mobile chat link
+    document.body.appendChild(chatLink);
+
+    //Mobile chat - icon (should be same as desktop icon)
+    var chatIcon = "<svg id='chatButton' xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 32 32' style='display: block; fill:#ffffff;'><path class='svg-icon maxSvg' d='M29.333,9.333H26.667v12H9.333V24a1.337,1.337,0,0,0,1.333,1.333H25.333l5.333,5.333v-20A1.337,1.337,0,0,0,29.333,9.333Zm-5.333,8v-12A1.337,1.337,0,0,0,22.667,4H5.333A1.337,1.337,0,0,0,4,5.333V24l5.333-5.333H22.667A1.337,1.337,0,0,0,24,17.333Z' transform='translate(-1.333 -1.333)'></path></svg>";
+    
+    //Mobile chat - encoded icon
+    var chatIcon64 = window.btoa(chatIcon);
+    //Add encoded icon as background image to link
+    document.getElementsByClassName('chat-button--mobile')[0].style.backgroundImage = "url('data:image/svg+xml;base64," + chatIcon64 + "')";
+    
+    //If Sticky Footer
+    if(document.getElementById('sticky--footer')) {
+      //Sticky Height
+      var stickyHeight = document.getElementById('sticky--footer').offsetHeight + 5;
+    }
+    
+    //On scroll
+    document.addEventListener('scroll', (event) => {
+      //If Sticky Height
+      if (stickyHeight) {
+        //Sticky Footer is visible and in a fixed position
+        if (document.getElementById('sticky--footer').classList.contains('sticky--footer--fixed')) {
+          //Mobile Chat - Vertical position is above sticky
+          document.getElementsByClassName('chat-button--mobile')[0].style.bottom = stickyHeight + "px";
+        //Sticky is not visible and is not in a fixed position
+        } else {
+          //Mobile Chat - Vertical position is lower left corner
+          document.getElementsByClassName('chat-button--mobile')[0].style.bottom = "5px";  
+        }
+      //No Sticky Height
+      } else {
+        //Mobile Chat - Vertical position is lower left corner
+        document.getElementsByClassName('chat-button--mobile')[0].style.bottom = "5px";
+      }
+    });
+  });
+</script>
+
+<!-- Mobile Chat Styling -->
+<style>
+  /* Hide desktop chat link */
+  #icChatButton {
+    display: none;
+  }
+  /* Mobile chat link */
+  .chat-button--mobile {
+    background: #009A44 center center no-repeat;
+    border: 2px solid #ffffff;
+    border-radius: 23px; 
+    -moz-border-radius: 23px; 
+    -webkit-border-radius: 23px; 
+    display: block;
+    height: 46px;
+    position: fixed;
+    right: 5px;
+    transition: bottom 1s;
+    width: 46px;
+    z-index: 1021;
+  }
+  /* If mobile */
+  @media (min-width:768px) {
+    /* Show desktop chat link */
+    #icChatButton {
+      bottom: 95px;
+      display: block;
+      right: -45px;
+      transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+    }
+    /* Hide mobile chat link */
+    .chat-button--mobile {
+      display: none;
+    }
+    /* Desktop chat pop-up */
+    .chat-iframe-wrap {
+      right: 80px;
+      max-height: 650px;
+      height: calc(100% - 80px);
+      bottom: 75px;
+    }
+  }
+</style>      
+    </div> 
+              	
+    
+  </body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1628533434 -->

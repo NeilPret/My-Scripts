@@ -2,6 +2,8 @@
 
 #if there arent two arguments to the script
 
+mkdir "/home/neil/student/scripts/portfolio/week4"
+## mkdir "~/student/scripts/portfolio/week5"
 
 if (( $#!=2 )); then
     #print and error and exit
